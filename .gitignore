@@ -20,8 +20,6 @@
 *.rar
 
 # Eclipse
-.project
-.classpath
 .settings/
 bin/
 tmp/
