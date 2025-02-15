@@ -6,13 +6,68 @@ public class Book extends Resource{
 	private String Editor;
 	private String Subject;
 	
+	public Book(String title, String author, String editor, String publisher, String subject, String ISBNNum){
+		this.setTitle(title);
+		setEditor(editor);
+		setAuthor(author);
+		setSubject(subject);
+		setPublisher(publisher);
+		if (!setISBNNum(ISBNNum))
+			return;
+		this.setStatus(true);
+		GenerateResourceID(this);
+	}
+	
+	public Book(String title, String author, String editor, String subject, String ISBNNum){
+		this.setTitle(title);
+		setEditor(editor);
+		setAuthor(author);
+		setSubject(subject);
+		if (!setISBNNum(ISBNNum))
+			return;
+		this.setStatus(true);
+		GenerateResourceID(this);
+	}
+	
+	public Book(String title, String author, String subject, String ISBNNum){
+		this.setTitle(title);
+		setAuthor(author);
+		setSubject(subject);
+		if (!setISBNNum(ISBNNum))
+			return;
+		this.setStatus(true);
+		GenerateResourceID(this);
+	}
+	
+	public Book(String title, String author, String ISBNNum){
+		this.setTitle(title);
+		setAuthor(author);
+		if (!setISBNNum(ISBNNum))
+			return;
+		this.setStatus(true);
+		GenerateResourceID(this);
+	}
+	
 	public String getISBNNum() {
 		return ISBNNum;
 	}
 	
-	public void setISBNNum(String iSBNNum) {
-		// if ISBN Num contains chat, we will not assign it to ISBNNum
-		ISBNNum = iSBNNum;
+	public Boolean setISBNNum(String isbnNum) {
+	    // Check if the ISBN number is exactly 13 characters long
+	    if (isbnNum == null || isbnNum.length() != 13) {
+	        this.ShowAlert("ISBN number must be exactly 13 digits long.");
+	        return false;
+	    }
+
+	    // Check if the ISBN number contains only digits
+	    if (!isbnNum.matches("\\d{13}")) {
+	    	this.ShowAlert("ISBN number must contain only digits.");
+	        return false;
+	    }
+
+	    // Assign the valid ISBN number
+	    ISBNNum = isbnNum;
+	    return true;
 	}
 
 	public String getAuthor() {
