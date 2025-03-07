@@ -1,5 +1,7 @@
 package application.Classes;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 import javafx.scene.control.Alert;
@@ -12,6 +14,9 @@ public class Resource {
     private String publisher;
     protected boolean isAvailable;
 
+    //to store all available Resource objects in the system.
+    private static Map<String, Resource> resources = new HashMap<>();
+    
     public Resource() {
     }
     
@@ -73,5 +78,10 @@ public class Resource {
     	alert.setContentText(Message);
 
     	alert.showAndWait();
+    }
+    
+    //lookup method that retrieves a Resource object from the resources map based on its resourceId.
+    public static Resource getResourceById(String resourceId) {
+        return resources.get(resourceId);
     }
 }
