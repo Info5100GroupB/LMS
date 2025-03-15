@@ -84,4 +84,11 @@ public class Resource {
     public static Resource getResourceById(String resourceId) {
         return resources.get(resourceId);
     }
+    
+    public static Map<String, Resource> getAllResources() {
+        return resources;
+    }
+
+
 }
+

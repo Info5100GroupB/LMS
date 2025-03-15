@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="application.controllers.SearchController">
+    <VBox spacing="10" alignment="CENTER" prefWidth="600" prefHeight="400">
+
+        <!-- Search Filters -->
+        <HBox spacing="10" alignment="CENTER">
+            <TextField fx:id="searchField" promptText="Enter keyword..." />
+            <ComboBox fx:id="filterComboBox" promptText="Filter by" />
+            <ComboBox fx:id="availabilityComboBox" promptText="Availability" />
+            <Button text="Search" onAction="#handleSearch"/>
+        </HBox>
+
+        <!-- Results Table -->
+        <TableView fx:id="resultsTable" prefHeight="300">
+            <columns>
+                <TableColumn fx:id="titleColumn" text="Title" prefWidth="150"/>
+                <TableColumn fx:id="authorColumn" text="Author" prefWidth="150"/>
+                <TableColumn fx:id="subjectColumn" text="Subject" prefWidth="150"/>
+                <TableColumn fx:id="availabilityColumn" text="Availability" prefWidth="100"/>
+            </columns>
+        </TableView>
+
+    </VBox>
+</AnchorPane>
