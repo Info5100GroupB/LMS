@@ -1,96 +1,68 @@
 package application.Classes;
 
-public class Book extends Resource{
-	private String ISBNNum;
-	private String Author;
-	private String Editor;
-	private String Subject;
-	
-	public Book(String title, String author, String editor, String publisher, String subject, String ISBNNum){
-		this.setTitle(title);
-		setEditor(editor);
-		setAuthor(author);
-		setSubject(subject);
-		setPublisher(publisher);
-		if (!setISBNNum(ISBNNum))
-			return;
-		this.setStatus(true);
-		GenerateResourceID(this);
-	}
-	
-	public Book(String title, String author, String editor, String subject, String ISBNNum){
-		this.setTitle(title);
-		setEditor(editor);
-		setAuthor(author);
-		setSubject(subject);
-		if (!setISBNNum(ISBNNum))
-			return;
-		this.setStatus(true);
-		GenerateResourceID(this);
-	}
-	
-	public Book(String title, String author, String subject, String ISBNNum){
-		this.setTitle(title);
-		setAuthor(author);
-		setSubject(subject);
-		if (!setISBNNum(ISBNNum))
-			return;
-		this.setStatus(true);
-		GenerateResourceID(this);
-	}
-	
-	public Book(String title, String author, String ISBNNum){
-		this.setTitle(title);
-		setAuthor(author);
-		if (!setISBNNum(ISBNNum))
-			return;
-		this.setStatus(true);
-		GenerateResourceID(this);
-	}
-	
-	public String getISBNNum() {
-		return ISBNNum;
-	}
-	
-	public Boolean setISBNNum(String isbnNum) {
-	    // Check if the ISBN number is exactly 13 characters long
-	    if (isbnNum == null || isbnNum.length() != 13) {
-	        this.ShowAlert("ISBN number must be exactly 13 digits long.");
-	        return false;
-	    }
+public class Book extends Resource {
 
-	    // Check if the ISBN number contains only digits
-	    if (!isbnNum.matches("\\d{13}")) {
-	    	this.ShowAlert("ISBN number must contain only digits.");
-	        return false;
-	    }
+    private String ISBNNum;
+    private String author;
+    private String editor;
+    private String subject;
 
-	    // Assign the valid ISBN number
-	    ISBNNum = isbnNum;
-	    return true;
-	}
+    // Full constructor with all fields
+    public Book(String title, String author, String editor, String publisher, String subject, String ISBNNum) {
+        this.setTitle(title);
+        setAuthor(author);
+        setEditor(editor);
+        setSubject(subject);
+        super.setPublisher(publisher);
 
-	public String getAuthor() {
-		return Author;
-	}
+        if (!setISBNNum(ISBNNum)) return;
 
-	public void setAuthor(String author) {
-		Author = author;
-	}
+        this.setStatus(true);
+        GenerateResourceID(this);
+    }
 
-	public String getEditor() {
-		return Editor;
-	}
+    // Getter and validated setter for ISBN
+    public String getISBNNum() {
+        return ISBNNum;
+    }
 
-	public void setEditor(String editor) {
-		Editor = editor;
-	}
+    public Boolean setISBNNum(String isbnNum) {
+        if (isbnNum == null || isbnNum.length() != 13) {
+            this.ShowAlert("ISBN number must be exactly 13 digits long.");
+            return false;
+        }
 
-	public String getSubject() {
-		return Subject;
-	}
+        if (!isbnNum.matches("\\d{13}")) {
+            this.ShowAlert("ISBN number must contain only digits.");
+            return false;
+        }
 
-	public void setSubject(String subject) {
-		Subject = subject;
-	}	
+        this.ISBNNum = isbnNum;
+        return true;
+    }
+
+    // Other field getters and setters
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getEditor() {
+        return editor;
+    }
+
+    public void setEditor(String editor) {
+        this.editor = editor;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
 }

@@ -5,23 +5,14 @@ public class CD extends Resource{
 	private String catalogNumber;
 	private String performer;
 	
-	public CD(String title, String performer, String catalogNumber){
-		setPerformer(performer);
-		setCatalogNumber(catalogNumber);
-		setQuantitiesOfCD(getQuantitiesOfCD() + 1);
-		this.setTitle(title);
-		this.setStatus(true);
-		GenerateResourceID(this);
-	}
-	
-	public CD(String title, String catalogNumber){
-		setCatalogNumber(catalogNumber);
-		setQuantitiesOfCD(getQuantitiesOfCD() + 1);
-		this.setTitle(title);
-		this.setStatus(true);
-		GenerateResourceID(this);
-	}
-	
+    public CD(String title, String performer, String catalogNumber, String publisher) {
+        super(title, publisher); // initializes title and publisher in Resource
+        this.performer = performer;
+        this.catalogNumber = catalogNumber;
+        setQuantitiesOfCD(getQuantitiesOfCD() + 1);
+        this.setStatus(true);
+        GenerateResourceID(this);
+    }
 	public String getPerformer() {
 		return performer;
 	}
@@ -38,7 +29,7 @@ public class CD extends Resource{
 		this.catalogNumber = catalogNumber;
 	}
 	
-	public String ToString() {
+	public String toString() {
 		return this.catalogNumber + this.performer;
 	}
 

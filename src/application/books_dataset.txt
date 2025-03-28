@@ -1,0 +1,101 @@
+Title,Author,Editor,Publisher,Subject,ISBN Number
+1984 (Anniversary Edition),George Orwell,Secker & Warburg,Penguin Books,Dystopian Fiction,9490660048950
+To Kill a Mockingbird (Anniversary Edition),Harper Lee,J.B. Lippincott & Co.,HarperCollins,Novel,6675656956381
+The Great Gatsby (Anniversary Edition),F. Scott Fitzgerald,Charles Scribner's Sons,Scribner,Classic Fiction,9919546959518
+Pride and Prejudice (Anniversary Edition),Jane Austen,Thomas Egerton,Penguin Classics,Romance,5108103213601
+The Catcher in the Rye (Anniversary Edition),J.D. Salinger,"Little, Brown and Company",Back Bay Books,Literature,8862945092159
+The Hobbit (Anniversary Edition),J.R.R. Tolkien,George Allen & Unwin,Mariner Books,Fantasy,6085263538493
+Harry Potter and the Sorcerer's Stone (Anniversary Edition),J.K. Rowling,Bloomsbury,Scholastic,Fantasy,6491899820136
+The Da Vinci Code (Anniversary Edition),Dan Brown,Doubleday,Anchor,Mystery,4058125772157
+The Alchemist (Anniversary Edition),Paulo Coelho,Rocco,HarperOne,Fiction,5530758896292
+The Fault in Our Stars (Anniversary Edition),John Green,Dutton Books,Penguin,Young Adult,7406091109617
+The Hunger Games (Anniversary Edition),Suzanne Collins,Scholastic Press,Scholastic,Science Fiction,4118174148198
+A Brief History of Time (Anniversary Edition),Stephen Hawking,Bantam Books,Bantam,Science,6281268836933
+Sapiens: A Brief History of Humankind (Anniversary Edition),Yuval Noah Harari,Harvill Secker,Harper,History,9098873735246
+Steve Jobs (Anniversary Edition),Walter Isaacson,Simon & Schuster,Simon & Schuster,Biography,8652790681555
+Becoming (Anniversary Edition),Michelle Obama,Crown,Crown Publishing,Memoir,1265312957933
+The Art of War (Anniversary Edition),Sun Tzu,Unknown,Oxford University Press,Philosophy,3630479567561
+The Road (Anniversary Edition),Cormac McCarthy,Alfred A. Knopf,Vintage,Post-apocalyptic Fiction,8248938468294
+Jane Eyre (Anniversary Edition),Charlotte Brontë,"Smith, Elder & Co.",Penguin Classics,Gothic Fiction,8075989401870
+The Shining (Anniversary Edition),Stephen King,Doubleday,Anchor,Horror,8804685175125
+Charlotte's Web (Anniversary Edition),E.B. White,Harper & Brothers,HarperCollins,Children's Fiction,2233524181747
+1984 - Vol 2,George Orwell,Secker & Warburg,Penguin Books,Dystopian Fiction,1418514949452
+To Kill a Mockingbird - Vol 2,Harper Lee,J.B. Lippincott & Co.,HarperCollins,Novel,5500608628499
+The Great Gatsby - Vol 2,F. Scott Fitzgerald,Charles Scribner's Sons,Scribner,Classic Fiction,8462545508733
+Pride and Prejudice - Vol 2,Jane Austen,Thomas Egerton,Penguin Classics,Romance,1347734087714
+The Catcher in the Rye - Vol 2,J.D. Salinger,"Little, Brown and Company",Back Bay Books,Literature,5653081456307
+The Hobbit - Vol 2,J.R.R. Tolkien,George Allen & Unwin,Mariner Books,Fantasy,1561318939794
+Harry Potter and the Sorcerer's Stone - Vol 2,J.K. Rowling,Bloomsbury,Scholastic,Fantasy,6996272641426
+The Da Vinci Code - Vol 2,Dan Brown,Doubleday,Anchor,Mystery,4910013489204
+The Alchemist - Vol 2,Paulo Coelho,Rocco,HarperOne,Fiction,2693751929796
+The Fault in Our Stars - Vol 2,John Green,Dutton Books,Penguin,Young Adult,2814745707323
+The Hunger Games - Vol 2,Suzanne Collins,Scholastic Press,Scholastic,Science Fiction,6639455375223
+A Brief History of Time - Vol 2,Stephen Hawking,Bantam Books,Bantam,Science,2998574012487
+Sapiens: A Brief History of Humankind - Vol 2,Yuval Noah Harari,Harvill Secker,Harper,History,9704440779457
+Steve Jobs - Vol 2,Walter Isaacson,Simon & Schuster,Simon & Schuster,Biography,8396375597275
+Becoming - Vol 2,Michelle Obama,Crown,Crown Publishing,Memoir,1933509662262
+The Art of War - Vol 2,Sun Tzu,Unknown,Oxford University Press,Philosophy,8471690980595
+The Road - Vol 2,Cormac McCarthy,Alfred A. Knopf,Vintage,Post-apocalyptic Fiction,4089164023705
+Jane Eyre - Vol 2,Charlotte Brontë,"Smith, Elder & Co.",Penguin Classics,Gothic Fiction,9051418937468
+The Shining - Vol 2,Stephen King,Doubleday,Anchor,Horror,3012411633627
+Charlotte's Web - Vol 2,E.B. White,Harper & Brothers,HarperCollins,Children's Fiction,6127532239580
+1984 (Anniversary Edition),George Orwell,Secker & Warburg,Penguin Books,Dystopian Fiction,2134932119974
+To Kill a Mockingbird (Anniversary Edition),Harper Lee,J.B. Lippincott & Co.,HarperCollins,Novel,6829041002433
+The Great Gatsby (Anniversary Edition),F. Scott Fitzgerald,Charles Scribner's Sons,Scribner,Classic Fiction,1131505513270
+Pride and Prejudice (Anniversary Edition),Jane Austen,Thomas Egerton,Penguin Classics,Romance,4078761444397
+The Catcher in the Rye (Anniversary Edition),J.D. Salinger,"Little, Brown and Company",Back Bay Books,Literature,2023164963140
+The Hobbit (Anniversary Edition),J.R.R. Tolkien,George Allen & Unwin,Mariner Books,Fantasy,9138376613702
+Harry Potter and the Sorcerer's Stone (Anniversary Edition),J.K. Rowling,Bloomsbury,Scholastic,Fantasy,9380206131912
+The Da Vinci Code (Anniversary Edition),Dan Brown,Doubleday,Anchor,Mystery,9267754049338
+The Alchemist (Anniversary Edition),Paulo Coelho,Rocco,HarperOne,Fiction,4753902969331
+The Fault in Our Stars (Anniversary Edition),John Green,Dutton Books,Penguin,Young Adult,8645621983979
+The Hunger Games (Anniversary Edition),Suzanne Collins,Scholastic Press,Scholastic,Science Fiction,3270955653286
+A Brief History of Time (Anniversary Edition),Stephen Hawking,Bantam Books,Bantam,Science,2019900865032
+Sapiens: A Brief History of Humankind (Anniversary Edition),Yuval Noah Harari,Harvill Secker,Harper,History,7541695113902
+Steve Jobs (Anniversary Edition),Walter Isaacson,Simon & Schuster,Simon & Schuster,Biography,1725891700618
+Becoming (Anniversary Edition),Michelle Obama,Crown,Crown Publishing,Memoir,9986738237012
+The Art of War (Anniversary Edition),Sun Tzu,Unknown,Oxford University Press,Philosophy,7959885230082
+The Road (Anniversary Edition),Cormac McCarthy,Alfred A. Knopf,Vintage,Post-apocalyptic Fiction,6229445483323
+Jane Eyre (Anniversary Edition),Charlotte Brontë,"Smith, Elder & Co.",Penguin Classics,Gothic Fiction,4835795343405
+The Shining (Anniversary Edition),Stephen King,Doubleday,Anchor,Horror,4791477450643
+Charlotte's Web (Anniversary Edition),E.B. White,Harper & Brothers,HarperCollins,Children's Fiction,3501834146091
+1984 - Vol 4,George Orwell,Secker & Warburg,Penguin Books,Dystopian Fiction,1053026170451
+To Kill a Mockingbird - Vol 4,Harper Lee,J.B. Lippincott & Co.,HarperCollins,Novel,3123599545348
+The Great Gatsby - Vol 4,F. Scott Fitzgerald,Charles Scribner's Sons,Scribner,Classic Fiction,2113286156990
+Pride and Prejudice - Vol 4,Jane Austen,Thomas Egerton,Penguin Classics,Romance,7327167181705
+The Catcher in the Rye - Vol 4,J.D. Salinger,"Little, Brown and Company",Back Bay Books,Literature,4817881906892
+The Hobbit - Vol 4,J.R.R. Tolkien,George Allen & Unwin,Mariner Books,Fantasy,5048985338337
+Harry Potter and the Sorcerer's Stone - Vol 4,J.K. Rowling,Bloomsbury,Scholastic,Fantasy,2187527879562
+The Da Vinci Code - Vol 4,Dan Brown,Doubleday,Anchor,Mystery,5767721509018
+The Alchemist - Vol 4,Paulo Coelho,Rocco,HarperOne,Fiction,1461017347991
+The Fault in Our Stars - Vol 4,John Green,Dutton Books,Penguin,Young Adult,8763061245680
+The Hunger Games - Vol 4,Suzanne Collins,Scholastic Press,Scholastic,Science Fiction,2660372938415
+A Brief History of Time - Vol 4,Stephen Hawking,Bantam Books,Bantam,Science,6449981862173
+Sapiens: A Brief History of Humankind - Vol 4,Yuval Noah Harari,Harvill Secker,Harper,History,4052393116969
+Steve Jobs - Vol 4,Walter Isaacson,Simon & Schuster,Simon & Schuster,Biography,7489277762178
+Becoming - Vol 4,Michelle Obama,Crown,Crown Publishing,Memoir,5426242631108
+The Art of War - Vol 4,Sun Tzu,Unknown,Oxford University Press,Philosophy,1712866864449
+The Road - Vol 4,Cormac McCarthy,Alfred A. Knopf,Vintage,Post-apocalyptic Fiction,3572675984081
+Jane Eyre - Vol 4,Charlotte Brontë,"Smith, Elder & Co.",Penguin Classics,Gothic Fiction,7330259664378
+The Shining - Vol 4,Stephen King,Doubleday,Anchor,Horror,1990680014766
+Charlotte's Web - Vol 4,E.B. White,Harper & Brothers,HarperCollins,Children's Fiction,4519132916021
+1984 (Anniversary Edition),George Orwell,Secker & Warburg,Penguin Books,Dystopian Fiction,4344165016539
+To Kill a Mockingbird (Anniversary Edition),Harper Lee,J.B. Lippincott & Co.,HarperCollins,Novel,4810288317424
+The Great Gatsby (Anniversary Edition),F. Scott Fitzgerald,Charles Scribner's Sons,Scribner,Classic Fiction,1529939516168
+Pride and Prejudice (Anniversary Edition),Jane Austen,Thomas Egerton,Penguin Classics,Romance,5220964286453
+The Catcher in the Rye (Anniversary Edition),J.D. Salinger,"Little, Brown and Company",Back Bay Books,Literature,7937233269938
+The Hobbit (Anniversary Edition),J.R.R. Tolkien,George Allen & Unwin,Mariner Books,Fantasy,9733939461352
+Harry Potter and the Sorcerer's Stone (Anniversary Edition),J.K. Rowling,Bloomsbury,Scholastic,Fantasy,9219798327719
+The Da Vinci Code (Anniversary Edition),Dan Brown,Doubleday,Anchor,Mystery,5274127509011
+The Alchemist (Anniversary Edition),Paulo Coelho,Rocco,HarperOne,Fiction,2090689665720
+The Fault in Our Stars (Anniversary Edition),John Green,Dutton Books,Penguin,Young Adult,6699872474825
+The Hunger Games (Anniversary Edition),Suzanne Collins,Scholastic Press,Scholastic,Science Fiction,4006618269289
+A Brief History of Time (Anniversary Edition),Stephen Hawking,Bantam Books,Bantam,Science,8305484292013
+Sapiens: A Brief History of Humankind (Anniversary Edition),Yuval Noah Harari,Harvill Secker,Harper,History,4544584448694
+Steve Jobs (Anniversary Edition),Walter Isaacson,Simon & Schuster,Simon & Schuster,Biography,8620863884255
+Becoming (Anniversary Edition),Michelle Obama,Crown,Crown Publishing,Memoir,3301941618295
+The Art of War (Anniversary Edition),Sun Tzu,Unknown,Oxford University Press,Philosophy,2716774556850
+The Road (Anniversary Edition),Cormac McCarthy,Alfred A. Knopf,Vintage,Post-apocalyptic Fiction,8382535921436
+Jane Eyre (Anniversary Edition),Charlotte Brontë,"Smith, Elder & Co.",Penguin Classics,Gothic Fiction,9986538964308
+The Shining (Anniversary Edition),Stephen King,Doubleday,Anchor,Horror,5111866672442
+Charlotte's Web (Anniversary Edition),E.B. White,Harper & Brothers,HarperCollins,Children's Fiction,7297723563374
