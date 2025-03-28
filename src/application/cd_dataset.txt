@@ -1,0 +1,101 @@
+Title,Performer,Catalog Number,Publisher
+The Dark Side of the Moon,The Beach Boys,320-491,EMI
+Tapestry,Fleetwood Mac,835-798,EMI
+Are You Experienced?,The Beatles,860-601,Warner Bros.
+Hotel California,Elton John,206-456,EMI
+Blue,Led Zeppelin,250-634,Warner Bros.
+Daydream Nation,AC/DC,779-549,Warner Bros.
+Disintegration,Guns N' Roses,863-684,Sony Music
+Graceland,Led Zeppelin,980-203,EMI
+The Suburbs,David Bowie,634-920,Sony Music
+A Night at the Opera,Queen,283-380,Sony Music
+Automatic for the People,The Rolling Stones,268-940,Sony Music
+Led Zeppelin IV,Eagles,918-852,Columbia Records
+Metallica,Guns N' Roses,853-599,Universal Music
+Hotel California,Fleetwood Mac,130-154,Warner Bros.
+Thriller,Prince,226-822,Universal Music
+OK Computer,Bruce Springsteen,726-106,Columbia Records
+Hunky Dory,Simon & Garfunkel,469-588,Universal Music
+The Wall,The Beatles,291-528,Universal Music
+The Suburbs,David Bowie,196-559,Atlantic Records
+Rumours,Pearl Jam,674-773,Sony Music
+Hybrid Theory,David Bowie,652-939,Universal Music
+Purple Rain,Simon & Garfunkel,208-874,Universal Music
+Rumours,Simon & Garfunkel,773-743,Columbia Records
+Highway 61 Revisited,U2,244-510,EMI
+Tapestry,David Bowie,792-447,Universal Music
+Led Zeppelin IV,The Rolling Stones,708-369,Sony Music
+Back in Black,The Beatles,158-832,Sony Music
+Appetite for Destruction,Simon & Garfunkel,279-148,EMI
+American Idiot,The Beatles,790-700,Columbia Records
+American Idiot,Pearl Jam,198-280,Sony Music
+Hybrid Theory,Metallica,919-301,Atlantic Records
+Abbey Road,Michael Jackson,101-449,Atlantic Records
+Highway 61 Revisited,The Beatles,666-616,Universal Music
+Goodbye Yellow Brick Road,Bob Dylan,989-474,Universal Music
+Revolver,Queen,969-691,Warner Bros.
+Ten,Green Day,451-507,Atlantic Records
+Wish You Were Here,The Rolling Stones,443-927,Atlantic Records
+Thriller,Nirvana,799-428,EMI
+Wish You Were Here,The Beach Boys,606-547,Warner Bros.
+Hybrid Theory,Eagles,763-665,Atlantic Records
+Goodbye Yellow Brick Road,Guns N' Roses,712-928,Warner Bros.
+Hotel California,Elton John,763-773,EMI
+The Dark Side of the Moon,Prince,480-957,EMI
+Tapestry,The Beatles,774-746,EMI
+Ten,Michael Jackson,302-814,Atlantic Records
+Electric Ladyland,The Beatles,226-185,Atlantic Records
+Daydream Nation,Paul McCartney,539-953,EMI
+Superunknown,Bob Dylan,383-616,Columbia Records
+Daydream Nation,Pink Floyd,179-754,Universal Music
+Highway 61 Revisited,Queen,496-414,EMI
+Ten,The Beach Boys,374-385,Sony Music
+The Dark Side of the Moon,AC/DC,500-267,Universal Music
+Rumours,Pearl Jam,196-996,Universal Music
+Daydream Nation,Fleetwood Mac,901-964,Sony Music
+Nevermind,Paul McCartney,367-235,Sony Music
+Abbey Road,David Bowie,211-117,Warner Bros.
+Purple Rain,Paul McCartney,287-446,Warner Bros.
+Who's Next,AC/DC,449-856,EMI
+A Love Supreme,U2,782-739,Universal Music
+Blue,Eagles,451-921,Sony Music
+Automatic for the People,Fleetwood Mac,506-814,Universal Music
+Revolver,Paul McCartney,937-558,Columbia Records
+Hounds of Love,Nirvana,489-656,Atlantic Records
+Blue,Bob Dylan,569-660,EMI
+The Wall,Queen,480-675,EMI
+Hunky Dory,Led Zeppelin,705-882,Warner Bros.
+Ten,Simon & Garfunkel,632-486,EMI
+Mothership Connection,Metallica,102-717,EMI
+Doolittle,Queen,766-400,Sony Music
+Nevermind,Led Zeppelin,660-562,EMI
+Revolver,Simon & Garfunkel,699-303,Universal Music
+Electric Ladyland,Eagles,862-469,Warner Bros.
+Daydream Nation,AC/DC,197-886,Sony Music
+Abbey Road,Bruce Springsteen,985-987,Sony Music
+A Night at the Opera,Eagles,982-491,Universal Music
+Appetite for Destruction,Eagles,818-625,Universal Music
+Daydream Nation,Eagles,639-103,EMI
+Led Zeppelin IV,Bruce Springsteen,250-159,Columbia Records
+Are You Experienced?,Nirvana,828-466,Warner Bros.
+Appetite for Destruction,Guns N' Roses,315-959,Columbia Records
+The Dark Side of the Moon,Paul McCartney,408-285,Universal Music
+Metallica,Michael Jackson,264-222,Atlantic Records
+The Suburbs,Paul McCartney,699-739,Universal Music
+Sgt. Pepper's Lonely Hearts Club Band,Guns N' Roses,271-155,EMI
+Who's Next,The Rolling Stones,148-387,EMI
+Brothers in Arms,The Beatles,291-779,Warner Bros.
+Disintegration,David Bowie,271-208,Atlantic Records
+Bitches Brew,David Bowie,282-760,Atlantic Records
+Appetite for Destruction,Prince,415-187,Atlantic Records
+Bitches Brew,Bob Dylan,821-712,Universal Music
+Wish You Were Here,Guns N' Roses,302-633,Columbia Records
+Metallica,The Beach Boys,495-887,Atlantic Records
+Sgt. Pepper's Lonely Hearts Club Band,Bruce Springsteen,349-381,Warner Bros.
+Goodbye Yellow Brick Road,Eagles,679-787,Warner Bros.
+Revolver,Prince,463-484,Universal Music
+American Idiot,Bob Dylan,635-206,Universal Music
+Who's Next,AC/DC,639-780,EMI
+The Dark Side of the Moon,Queen,943-467,Columbia Records
+A Night at the Opera,Nirvana,755-534,Warner Bros.
+Goodbye Yellow Brick Road,Guns N' Roses,447-698,Universal Music
