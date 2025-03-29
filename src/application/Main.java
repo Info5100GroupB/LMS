@@ -22,7 +22,7 @@ public class Main extends Application {
     public static void main(String[] args) {
         // Load book and CD resources before launching GUI
         Resource.loadBooksFromTXT("src/application/books_dataset.txt");
-        Resource.loadCDsFromTXT("src/application/cd_dataset.csv");
+        Resource.loadCDsFromTXT("src/application/cd_dataset.txt");
 
         // Optional: Print summary to console
         System.out.println("Library initialized. Resources loaded:");
