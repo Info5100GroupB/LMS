@@ -8,7 +8,9 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class Resource {
@@ -168,4 +170,34 @@ public class Resource {
             System.out.println("Error loading CDs: " + e.getMessage());
         }
     }
+
+    public static void addBookToTXT(Book book, String filePath) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
+            String bookDetails = String.format("%s,%s,%s,%s,%s,%s",
+                    book.getTitle(),
+                    book.getAuthor(),
+                    book.getEditor(),
+                    book.getPublisher(),
+                    book.getSubject(),
+                    book.getISBNNum());
+            writer.write(bookDetails);
+            writer.newLine();
+        } catch (IOException e) {
+            System.out.println("Error writing book to file: " + e.getMessage());
+        }
+    }
+
+	public static void addCDToTXT(CD cd, String filePath) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
+            String bookDetails = String.format("%s,%s,%s,%s",
+                    cd.getTitle(),
+                    cd.getPerformer(),
+                    cd.getCatalogNumber(),
+                    cd.getPublisher());
+            writer.write(bookDetails);
+            writer.newLine();
+        } catch (IOException e) {
+            System.out.println("Error writing book to file: " + e.getMessage());
+        }
+	}
 }

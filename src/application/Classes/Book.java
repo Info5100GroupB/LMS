@@ -21,7 +21,7 @@ public class Book extends Resource {
         GenerateResourceID(this);
     }
 
-    // Getter and validated setter for ISBN
+	// Getter and validated setter for ISBN
     public String getISBNNum() {
         return ISBNNum;
     }
