@@ -35,7 +35,7 @@ public class HomeController {
             Parent searchRoot = loader.load();
             Stage stage = (Stage) addResourceButton.getScene().getWindow();
             stage.setScene(new Scene(searchRoot));
-            stage.setTitle("Search Books - Library Management System");
+            stage.setTitle("Add Resource - Library Management System");
         } catch (Exception e) {
             e.printStackTrace();
         }
