@@ -16,6 +16,8 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         primaryStage.setTitle("Library Management System - Home");
         primaryStage.setScene(scene);
+        primaryStage.setWidth(950);
+        primaryStage.setHeight(600);
         primaryStage.show();
     }
 

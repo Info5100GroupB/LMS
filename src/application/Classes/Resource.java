@@ -18,6 +18,7 @@ public class Resource {
     private String resourceId;
     private String title;
     private String publisher;
+    private String isbn;
     protected boolean isAvailable;
 
     // To store all available Resource objects in the system.
@@ -26,11 +27,12 @@ public class Resource {
     public Resource() {
     }
 
-    public Resource(String title, String publisher) {
+    public Resource(String title, String publisher, String isbn) {
         this.resourceId = UUID.randomUUID().toString();
         this.title = title;
         this.publisher = publisher;
         this.isAvailable = true;
+        this.isbn = isbn;
     }
 
     public static void GenerateResourceID(Resource resource) {
@@ -53,6 +55,14 @@ public class Resource {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+    
+    public String getISBNNum() {
+        return isbn;
+    }
+
+    public void getISBNNum(String isbn) {
+        this.isbn = isbn;
     }
 
     public String getPublisher() {
@@ -118,7 +128,7 @@ public class Resource {
                 if (line.trim().isEmpty()) continue;
 
                 String[] values = line.split(",");
-                if (values.length == 4) {
+                if (values.length == 6) {
                     String title = values[0].trim();
                     String author = values[1].trim();
                     String editor = values[2].trim();
@@ -126,7 +136,6 @@ public class Resource {
                     String subject = values[4].trim();
                     String isbn = values[5].trim();
 
-                    // Use a matching constructor (adjust as needed)
                     Book book = new Book(title, author, editor, publisher, subject, isbn);
                     resources.put(book.getResourceId(), book);
                     count++;

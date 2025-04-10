@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.ReaderProfileController">
+    <VBox spacing="15" alignment="CENTER" prefWidth="600" prefHeight="500">
+
+        <Label fx:id="readerInfo" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+
+<HBox spacing="10" alignment="CENTER">
+    <Button text="Edit Reader" onAction="#handleEditReader"/>
+    <Button text="Delete Reader" onAction="#handleDeleteReader"/>
+</HBox>
+        <Label text="Borrowed Resources:" />
+        <ListView fx:id="borrowedList" prefHeight="150" maxWidth="800" minWidth="150" />
+
+        <Button text="Return Selected Resource" onAction="#handleReturn" />
+
+<!--
+        <Separator />
+        <Label text="Available Resources:" />
+        <ListView fx:id="availableList" prefHeight="150" />
+
+        <Button text="Borrow Selected Resource" onAction="#handleBorrow" />
+        -->
+
+        <Button text="Back" onAction="#handleBack" />
+    </VBox>
+</StackPane>
