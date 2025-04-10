@@ -6,7 +6,7 @@ public class CD extends Resource{
 	private String performer;
 	
     public CD(String title, String performer, String catalogNumber, String publisher) {
-        super(title, publisher); // initializes title and publisher in Resource
+        super(title, publisher, null); // initializes title and publisher in Resource
         this.performer = performer;
         this.catalogNumber = catalogNumber;
         setQuantitiesOfCD(getQuantitiesOfCD() + 1);

@@ -98,4 +98,4 @@ American Idiot,Bob Dylan,635-206,Universal Music
 Who's Next,AC/DC,639-780,EMI
 The Dark Side of the Moon,Queen,943-467,Columbia Records
 A Night at the Opera,Nirvana,755-534,Warner Bros.
-Goodbye Yellow Brick Road,Guns N' Roses,447-698,Universal Music
+Goodbye Yellow Brick Road,Guns N' Roses,447-698,Universal Musicabc,acdc,123,gold star

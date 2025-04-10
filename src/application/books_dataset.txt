@@ -99,3 +99,5 @@ The Road (Anniversary Edition),Cormac McCarthy,Alfred A. Knopf,Vintage,Post-apoc
 Jane Eyre (Anniversary Edition),Charlotte Brontë,"Smith, Elder & Co.",Penguin Classics,Gothic Fiction,9986538964308
 The Shining (Anniversary Edition),Stephen King,Doubleday,Anchor,Horror,5111866672442
 Charlotte's Web (Anniversary Edition),E.B. White,Harper & Brothers,HarperCollins,Children's Fiction,7297723563374
+I Am a Cat,Soseki Natsume,Graeme Wilson,Tuttle Publishing,Historical Fiction,9784805310977
+Your Name,Bob Ross,Bob Ross,Art House,Art,1231231231231
