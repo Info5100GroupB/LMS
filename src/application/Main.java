@@ -12,10 +12,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Load FXML and start the GUI
-        Parent root = FXMLLoader.load(getClass().getResource("views/Home.fxml"));
-        Scene scene = new Scene(root);
-        primaryStage.setTitle("Library Management System - Home");
-        primaryStage.setScene(scene);
+    	Parent root = FXMLLoader.load(getClass().getResource("/application/views/Login.fxml"));
+        primaryStage.setScene(new Scene(root));
+        primaryStage.setTitle("Login");
         primaryStage.setWidth(950);
         primaryStage.setHeight(600);
         primaryStage.show();
