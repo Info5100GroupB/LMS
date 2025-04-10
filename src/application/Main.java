@@ -14,7 +14,7 @@ public class Main extends Application {
         // Load FXML and start the GUI
     	Parent root = FXMLLoader.load(getClass().getResource("/application/views/Login.fxml"));
         primaryStage.setScene(new Scene(root));
-        primaryStage.setTitle("Login");
+        primaryStage.setTitle("Library Management System - Login");
         primaryStage.setWidth(950);
         primaryStage.setHeight(600);
         primaryStage.show();

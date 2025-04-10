@@ -39,7 +39,7 @@ public class LoginController {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/application/views/Home.fxml"));
             Stage stage = (Stage) usernameField.getScene().getWindow();
-            stage.setTitle("Library Management System");
+            stage.setTitle("Library Management System - Home");
             stage.setScene(new Scene(root));
         } catch (Exception e) {
             e.printStackTrace();
