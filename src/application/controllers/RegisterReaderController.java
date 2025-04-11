@@ -15,11 +15,16 @@ public class RegisterReaderController {
 
     @FXML
     private void handleRegister() {
-        String name = nameField.getText();
-        String phone = phoneField.getText();
+        String name = nameField.getText().trim();
+        String phone = phoneField.getText().trim();
 
         if (name.isEmpty() || phone.isEmpty()) {
             new Alert(Alert.AlertType.WARNING, "Please fill in all fields.").show();
+            return;
+        }
+        
+        if (!phone.matches("\\d+")) {
+            new Alert(Alert.AlertType.WARNING, "Phone number must contain only digits.").show();
             return;
         }
 

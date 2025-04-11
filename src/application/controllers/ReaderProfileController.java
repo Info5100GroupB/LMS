@@ -51,6 +51,7 @@ public class ReaderProfileController {
         if (index >= 0) {
             Resource res = reader.getBorrowedBooks().get(index);
             reader.returnBook(res);
+            new Alert(Alert.AlertType.INFORMATION, "Resource returned successfully.").show();
             refreshLists();
         }
     }
