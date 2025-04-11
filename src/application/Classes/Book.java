@@ -27,13 +27,8 @@ public class Book extends Resource {
     }
 
     public Boolean setISBNNum(String isbnNum) {
-        if (isbnNum == null || isbnNum.length() != 13) {
-            this.ShowAlert("ISBN number must be exactly 13 digits long.");
-            return false;
-        }
-
-        if (!isbnNum.matches("\\d{13}")) {
-            this.ShowAlert("ISBN number must contain only digits.");
+        if (isbnNum == null || !isbnNum.matches("\\d{10}|\\d{13}")) {
+            this.ShowAlert("ISBN number must be exactly 10 or 13 digits long and contain only digits.");
             return false;
         }
 

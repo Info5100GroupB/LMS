@@ -21,17 +21,6 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        // Load book and CD resources before launching GUI
-        Resource.loadBooksFromTXT("src/application/books_dataset.txt");
-        Resource.loadCDsFromTXT("src/application/cd_dataset.txt");
-
-        // Optional: Print summary to console
-        System.out.println("Library initialized. Resources loaded:");
-        for (var resource : Resource.getAllResources().values()) {
-            String type = resource.getClass().getSimpleName();
-            System.out.println(type + ": " + resource.getTitle() + " - " + resource.getPublisher());
-        }
-
         // Launch JavaFX application
         launch(args);
     }

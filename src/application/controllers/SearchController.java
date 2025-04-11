@@ -41,6 +41,8 @@ public class SearchController {
 
     @FXML
     public void initialize() {
+    	loadResourcesFromFile();
+        
         // Initialize filter options
         filterComboBox.getItems().addAll("Title", "Author", "Performer", "Subject", "Catalog Number");
         filterComboBox.setValue("Title");
@@ -90,6 +92,18 @@ public class SearchController {
         }
         resultsTable.setItems(resourceList);
     }
+    
+    private void loadResourcesFromFile() {
+    	// Load book and CD resources before launching GUI
+        Resource.loadBooksFromTXT("src/application/books_dataset.txt");
+        Resource.loadCDsFromTXT("src/application/cd_dataset.txt");
+        // Print summary to console
+        System.out.println("Library initialized. Resources loaded:");
+        for (var resource : Resource.getAllResources().values()) {
+            String type = resource.getClass().getSimpleName();
+            System.out.println(type + ": " + resource.getTitle() + " - " + resource.getPublisher());
+        }
+	}
     
     @FXML
     private void handleCancelButtonClick() {
