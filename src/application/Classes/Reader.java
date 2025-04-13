@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javafx.application.Platform;
+import javafx.scene.control.Alert;
+
 public class Reader {
 	
 	/* *Variable initialization */
@@ -18,8 +21,8 @@ public class Reader {
     /* *to create new Reader record and store it in the map. */
     public Reader(String readerId, String name, String phoneNumber) {
         this.readerId = readerId;
-        this.name = name;
-        this.phoneNumber = phoneNumber;
+        this.setName(name);
+        if (!this.setPhoneNumber(phoneNumber)) return;
         readers.put(readerId, this);
     }
 
@@ -45,8 +48,16 @@ public class Reader {
         return phoneNumber;
     }
     
-    public void setPhoneNumber(String phoneNumber) {
+    public Boolean setPhoneNumber(String phoneNumber) {        
+        if (!phoneNumber.matches("\\d+")) {
+        	Platform.runLater(() -> {
+                new Alert(Alert.AlertType.WARNING, "Phone number must contain only digits.").show();
+            });
+            return false;
+        }
+        
         this.phoneNumber = phoneNumber;
+        return true;
     }
 
     public List<Resource> getBorrowedBooks() {

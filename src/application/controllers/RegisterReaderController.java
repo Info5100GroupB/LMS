@@ -17,19 +17,23 @@ public class RegisterReaderController {
     private void handleRegister() {
         String name = nameField.getText().trim();
         String phone = phoneField.getText().trim();
-
-        if (name.isEmpty() || phone.isEmpty()) {
-            new Alert(Alert.AlertType.WARNING, "Please fill in all fields.").show();
-            return;
-        }
+        try {
+	        if (name.isEmpty() || phone.isEmpty()) {
+	            new Alert(Alert.AlertType.WARNING, "Please fill in all fields.").show();
+	            return;
+	        }
+	
+	        String readerId = "R" + System.currentTimeMillis();
+	        Reader reader =new Reader(readerId, name, phone);
+	        
+			if (reader.getPhoneNumber() == null) {
+				return;
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         
-        if (!phone.matches("\\d+")) {
-            new Alert(Alert.AlertType.WARNING, "Phone number must contain only digits.").show();
-            return;
-        }
-
-        String readerId = "R" + System.currentTimeMillis();
-        new Reader(readerId, name, phone);
         new Alert(Alert.AlertType.INFORMATION, "Reader registered successfully.").show();
         nameField.clear();
         phoneField.clear();

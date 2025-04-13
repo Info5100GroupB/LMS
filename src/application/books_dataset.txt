@@ -102,3 +102,6 @@ Charlotte's Web (Anniversary Edition),E.B. White,Harper & Brothers,HarperCollins
 I Am a Cat,Soseki Natsume,Graeme Wilson,Tuttle Publishing,Historical Fiction,9784805310977
 Your Name,Bob Ross,Bob Ross,Art House,Art,1231231231231
 Moloka'i,Alan Brennert,Anne Noelani Miyamoto,St. Martin's Griffin,Historical Fiction,0312304358
+A Suitable Boy,Vikram Seth,Vikram Seth,Harper Perennial Modern Classics,Classic Fiction,0060786523
+A Suitable Girl,Vikram Seth,Vikram Seth,Orion,Classic Fiction,9781780227887
+The Anxious Generation,Jonathan Haidt,Jonathan Haidt,Penguin Press,Psychology,0593655036

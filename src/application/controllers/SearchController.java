@@ -94,15 +94,21 @@ public class SearchController {
     }
     
     private void loadResourcesFromFile() {
-    	// Load book and CD resources before launching GUI
-        Resource.loadBooksFromTXT("src/application/books_dataset.txt");
-        Resource.loadCDsFromTXT("src/application/cd_dataset.txt");
-        // Print summary to console
-        System.out.println("Library initialized. Resources loaded:");
-        for (var resource : Resource.getAllResources().values()) {
-            String type = resource.getClass().getSimpleName();
-            System.out.println(type + ": " + resource.getTitle() + " - " + resource.getPublisher());
-        }
+    	// Check if resources are already loaded, to avoid reloading
+    	if (Resource.getAllResources().isEmpty()) {		
+	        Resource.loadBooksFromTXT("src/application/books_dataset.txt");
+	        Resource.loadCDsFromTXT("src/application/cd_dataset.txt");
+	        // Print summary to console
+	        System.out.println("Library initialized. Resources loaded:");
+	        for (var resource : Resource.getAllResources().values()) {
+	            String type = resource.getClass().getSimpleName();
+	            System.out.println(type + ": " + resource.getTitle() + " - " + resource.getPublisher());
+	        }
+    	}
+    	else {
+    		// If resources are already loaded, do not load them again
+			System.out.println("Resources already loaded.");
+    	}
 	}
     
     @FXML

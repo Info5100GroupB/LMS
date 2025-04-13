@@ -56,16 +56,6 @@ public class ReaderProfileController {
         }
     }
 
-    //@FXML
-    //private void handleBorrow() {
-    //    int index = availableList.getSelectionModel().getSelectedIndex();
-    //    if (index >= 0) {
-    //        Resource res = availableResources.get(index);
-    //        reader.borrow(res);
-    //        refreshLists();
-    //    }
-    //}
-
     @FXML
     private void handleBack() throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/application/views/ViewReaders.fxml"));
