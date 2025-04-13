@@ -49,7 +49,7 @@ This project is a simple Library Management System implemented in Java. It provi
 - Create a new Pull Request
 
 ### Contact
-If you have any questions or suggestions, feel free to contact me at Slack.
+If you have any questions or suggestions, feel free to contact us or create an issue on our repo (https://github.com/Info5100GroupB/LMS/).
 
 ### Explanation:
 
