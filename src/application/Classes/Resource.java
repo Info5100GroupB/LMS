@@ -100,6 +100,7 @@ public class Resource {
         Alert alert = new Alert(AlertType.ERROR);
         alert.setTitle("Error");
         alert.setHeaderText("Error Existed!");
+        alert.getDialogPane().setPrefWidth(message.length() * 7);
         alert.setContentText(message);
         alert.showAndWait();
     }

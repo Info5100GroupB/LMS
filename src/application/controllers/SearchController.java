@@ -173,6 +173,10 @@ public class SearchController {
 	    // UI components
 	    TextField searchField = new TextField();
 	    ListView<Reader> listView = new ListView<>();
+	    
+	    if (Reader.getAllReaders().isEmpty()) {
+			Reader.loadReadersFromCSV("src/application/reader_dataset.txt");
+		}
 
 	    ObservableList<Reader> allReaders = FXCollections.observableArrayList(Reader.getAllReaders().values());
 	    listView.setItems(allReaders);

@@ -25,6 +25,7 @@ public class RegisterReaderController {
 	
 	        String readerId = "R" + System.currentTimeMillis();
 	        Reader reader =new Reader(readerId, name, phone);
+	        Reader.saveReadersToCSV(reader, "src/application/reader_dataset.txt");
 	        
 			if (reader.getPhoneNumber() == null) {
 				return;

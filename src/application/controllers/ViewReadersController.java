@@ -20,6 +20,10 @@ public class ViewReadersController {
 
     @FXML
     public void initialize() {
+    	if (Reader.getAllReaders().isEmpty()) {
+			Reader.loadReadersFromCSV("src/application/reader_dataset.txt");
+		}
+    	
         idColumn.setCellValueFactory(data -> new javafx.beans.property.SimpleStringProperty(data.getValue().getReaderId()));
         nameColumn.setCellValueFactory(data -> new javafx.beans.property.SimpleStringProperty(data.getValue().getName()));
         phoneColumn.setCellValueFactory(data -> new javafx.beans.property.SimpleStringProperty(data.getValue().getPhoneNumber()));

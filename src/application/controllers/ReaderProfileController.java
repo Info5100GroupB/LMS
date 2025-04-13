@@ -16,7 +16,6 @@ public class ReaderProfileController {
     @FXML private ListView<String> availableList;
 
     private Reader reader;
-//    private ObservableList<Resource> availableResources = FXCollections.observableArrayList();
 
     public void setReader(Reader reader) {
         this.reader = reader;
@@ -33,16 +32,6 @@ public class ReaderProfileController {
         for (Resource res : reader.getBorrowedBooks()) {
             borrowedList.getItems().add(res.getTitle() + " - " + res.getPublisher());
         }
-
-//        availableList.getItems().clear();
-//        availableResources.clear();
-//
-//        for (Resource res : Resource.getAllResources().values()) {
-//            if (res.isAvailable()) {
-//                availableResources.add(res);
-//                availableList.getItems().add(res.getTitle() + " - " + res.getPublisher());
-//            }
-//        }
     }
 
     @FXML
@@ -84,6 +73,8 @@ public class ReaderProfileController {
         reader.setName(updatedName);
         reader.setPhoneNumber(updatedPhone);
         readerInfo.setText("Reader: " + reader.getName() + " (" + reader.getPhoneNumber() + ")");
+        new Alert(Alert.AlertType.INFORMATION, "Reader information updated successfully.").show();
+        Reader.saveReadersToCSV("src/application/reader_dataset.txt");
     }
     
     @FXML
@@ -101,6 +92,8 @@ public class ReaderProfileController {
         confirm.showAndWait().ifPresent(response -> {
             if (response == ButtonType.OK) {
                 Reader.getAllReaders().remove(reader.getReaderId());
+                Reader.saveReadersToCSV("src/application/reader_dataset.txt");
+
                 try {
                     Parent root = FXMLLoader.load(getClass().getResource("/application/views/ViewReaders.fxml"));
                     Stage stage = (Stage) readerInfo.getScene().getWindow();
